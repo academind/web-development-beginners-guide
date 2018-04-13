@@ -1,0 +1,51 @@
+html {
+    background-color: rgb(236, 236, 236);
+}
+
+body {
+    margin: 0;
+}
+
+a {
+   text-decoration: none;
+   color: black; 
+}
+
+/*header*/
+
+.fixed-bar {
+    height: 70px;
+
+}
+.page-title {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 40px;
+    background-color: #521751;
+    color: white;
+    padding: 10px;
+    margin: 0;
+    text-align: center;
+}
+
+/*nav*/
+
+
+/*main*/
+.trip-text {
+    background-color: #fa923f;
+    padding: 10px;
+}
+
+.trip-text p {
+    background-color: white;
+    margin: 0;
+}
+
+/*footer*/
+.feedback {
+    background-color: #521751;
+    color: white;
+    text-align: center;
+}
