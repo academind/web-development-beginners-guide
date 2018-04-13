@@ -1,0 +1,13 @@
+header {
+    background-color: #521751;
+}
+
+h1 {
+    font-size: 20px;
+    color: white;
+}
+
+a {
+   text-decoration: none;
+   color: black; 
+}
