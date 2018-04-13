@@ -1,0 +1,98 @@
+html {
+    background-color: rgb(236, 236, 236);
+}
+
+body {
+    margin: 0;
+}
+
+a {
+   text-decoration: none;
+   color: black; 
+   background-color: red;
+}
+
+/*header*/
+
+.fixed-bar {
+    height: 70px;
+
+}
+.page-title {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 40px;
+    background-color: #521751;
+    color: white;
+    padding: 10px 0;
+    margin: 0;
+    text-align: center;
+}
+
+/*nav*/
+.navigation {
+    text-align: center;
+    padding: 0;
+}
+
+
+.navigation li, .navigation a {
+    display: inline-block;
+    width: 70px;
+    background-color: rgb(177, 177, 174);
+}
+
+
+/*main*/
+.trip-text {
+    background-color: #fa923f;
+    padding: 0;
+    display: flex;
+}
+
+.trip-text p {
+    background-color: #521751;
+    color: white;
+    text-align: center;
+    margin: 0;
+    width: 50%;
+}
+
+.trip-images {
+    display: flex;
+}
+
+.trip-images img {
+    width: 50%;
+    height: 100%;
+} 
+
+.feedback {
+    position: relative;
+    bottom: 18.4px;
+    background-color: #521751;
+    color: white;
+    text-align: center;
+    margin: 0;
+}
+
+/*footer*/
+.review-clients {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    border: 1px solid black;
+    background-color: white;
+    margin: 10px;
+}
+
+.review-clients img {
+    width: 120px;
+}
+
+.review-clients p {
+    width: 350px;
+    text-align: center;
+}
