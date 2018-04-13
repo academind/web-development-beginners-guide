@@ -1,0 +1,32 @@
+html {
+    background-color: grey;
+    padding: 10px;
+}
+
+body {
+    background-color: rgb(255, 166, 0);
+    padding: 10px;
+}
+
+.navigation {
+    background-color: white;
+    border: 5px solid black;
+    padding: 20px;
+    position: relative;
+}
+
+.nested {
+    background-color: #c52dc3;
+    color: white;
+    padding: 20px;
+    border: 5px solid #521751;
+    
+}
+
+.content {
+    background-color: rgb(60, 97, 218);
+    color: white;
+    border: 5px solid #521751;
+    width: 50%;
+    box-sizing: border-box;
+}
