@@ -1,0 +1,25 @@
+html {
+    background-color: rgb(236, 236, 236);
+}
+
+.page-title {
+    background-color: #521751;
+    color: white;
+    padding: 10px;
+    margin: 0;
+}
+
+a {
+   text-decoration: none;
+   color: black; 
+}
+
+.trip-text {
+    background-color: #fa923f;
+    padding: 10px;
+}
+
+.trip-text p {
+    background-color: white;
+    margin: 0;
+}
