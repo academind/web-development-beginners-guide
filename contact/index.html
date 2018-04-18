@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Our First Webpage</title>
+        <link rel="shortcut icon" href="../images/favicon.png">
+        <link rel="stylesheet" href="../style.css">
+        <link href="https://fonts.googleapis.com/css?family=Barlow" rel="stylesheet">
+    </head>
+    <body>
+        <header class="fixed-bar"> <h1 class="page-title">Mike's World</h1> </header>
+        <nav>
+            <ul class="navigation">
+                <li><a href="../index.html">Home</a></li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+        <main >
+            <form class="form">
+                <label for="input-name">Name</label>
+                <input type="text" name="name" class="form-input" id="input-name">
+                <label for="input-mail">Mail</label>
+                <input type="text" name="email" class="form-input" id="input-mail">
+                <label for="input-message">Your Message</label>
+                <textarea name="message" cols="30" rows="10" class="form-input" id="input-message"></textarea>
+                <button class="submit-button" disabled>Submit</button>
+            </form>
+        </main>
+        <script src="main.js"></script>
+    </body>
+</html>
